@@ -6,7 +6,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "0_author_name"
+            "name": "0_author_name",
+            "email": "0_author_email@sld.tld"
         }
     ],
     "require": {
