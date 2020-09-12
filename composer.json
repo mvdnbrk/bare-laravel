@@ -4,6 +4,11 @@
     "description": "0_description",
     "keywords": [],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "0_author_name"
+        }
+    ],
     "require": {
         "php": "^7.4",
         "fideloper/proxy": "^4.2",
