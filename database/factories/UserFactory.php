@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 
 class UserFactory extends Factory
 {
-    protected string $model = User::class;
+    protected $model = User::class;
 
     public function definition(): array
     {
