@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateFailedJobsTable extends Migration
 {
-    private function up(): void
+    public function up(): void
     {
         Schema::create('failed_jobs', function (Blueprint $table) {
             $table->id();
