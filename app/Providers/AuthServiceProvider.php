@@ -7,8 +7,5 @@ use Illuminate\Support\Facades\Gate;
 
 class AuthServiceProvider extends ServiceProvider
 {
-    public function boot(): void
-    {
-        //
-    }
+    //
 }
