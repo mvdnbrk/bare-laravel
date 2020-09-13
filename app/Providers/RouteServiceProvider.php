@@ -9,6 +9,8 @@ class RouteServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        $this->routes(fn () => Route::middleware('web')->group(base_path('routes/web.php')));
+        $this->routes(function () {
+            Route::get('/', fn () => 'Build something amazing!');
+        });
     }
 }
